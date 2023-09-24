@@ -1,8 +1,10 @@
 # CRAWLB.IN
 
+!NOTE - the domain used here - _crawlb.in_ is no longer active - references require you to have a functioning domain of your own to test
+
 ## Introduction
 
-[crawlbin](https://crawlb.in/) is a service, inspired by [httpbin](http://httpbin.org/) and forked from the original code by Distilled, to dynamically create combinations of HTML pages with specific HTTP headers for the purpose of testing crawlers or tools that need to be able to handle potentially misleading signals. You can use crawlbin to deliberately generate pages with technical issues in order to verify how a crawler handles those scenarios.
+[crawlbin](https://crawlb.in/) is a service, inspired by [httpbin](http://httpbin.org/) and forked from the original code by Distilled (no longer available as far as I could find), to dynamically create combinations of HTML pages with specific HTTP headers for the purpose of testing crawlers or tools that need to be able to handle potentially misleading signals. You can use crawlbin to deliberately generate pages with technical issues in order to verify how a crawler handles those scenarios.
 
 crawlbin accepts a list of flags in the URL which toggle various directives and HTTP responses. For example, you can simulate a page with a noindex tag, by using the `meta_noindex` flag:
 
